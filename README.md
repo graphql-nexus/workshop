@@ -1,6 +1,6 @@
 ## Nexus Workshop 2020 @ Prisma Day
 
-This repository contains the a very basic starter that will help you get up and running quicker for the workshop.
+This repository contains a very basic starter that will help you get up and running quicker for the workshop.
 
 ### Installation
 
@@ -18,7 +18,7 @@ npm install
 
 3. Start the GraphQL server
 
-You should be prompted with a warning telling your that "[...] Your GraphQL schema is empty.".
+You should be prompted with a warning telling you that "[...] Your GraphQL schema is empty.".
 This is all fine and expected, we'll start building that schema during the workshop!
 
 ```sh
