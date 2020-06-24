@@ -13,7 +13,7 @@ git clone https://github.com/graphql-nexus/workshop.git
 2. Install the dependencies
 
 ```sh
-npm install
+cd workshop && npm install
 ```
 
 3. Start the GraphQL server
@@ -33,6 +33,6 @@ If the server started properly, you should see the following log:
 ● nexus:server listening  --  url: 'http://localhost:4000/'
 ```
 
-CMD + Click that URL, it should open the GraphQL Playground.
+Click that url (http://localhost:4000), it should open the GraphQL Playground.
 
 5. You're all set! 
