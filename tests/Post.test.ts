@@ -54,4 +54,8 @@ it('ensures that a draft can be created and published', async () => {
       },
     }
   `)
+
+  const persistedData = await ctx.app.db.client.post.findMany()
+
+  expect(persistedData).toMatchSnapshot()
 })
