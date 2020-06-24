@@ -7,7 +7,7 @@ This repository contains a very basic starter that will help you get up and runn
 1. Clone the repository
 
 ```sh
-git clone https://github.com/graphql-nexus/workshop2020.git
+git clone https://github.com/graphql-nexus/workshop.git
 ```
 
 2. Install the dependencies
