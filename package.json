@@ -10,7 +10,8 @@
     "dev": "nexus dev",
     "build": "nexus build",
     "start": "node .nexus/build/api",
-    "format": "npx prettier --write './**/*.{ts,md}'"
+    "format": "npx prettier --write './**/*.{ts,md}'",
+    "test": "jest"
   },
   "prettier": {
     "semi": false,
@@ -18,6 +19,13 @@
     "trailingComma": "all"
   },
   "devDependencies": {
-    "prettier": "^2.0.5"
+    "@types/jest": "^26.0.2",
+    "jest": "^26.1.0",
+    "prettier": "^2.0.5",
+    "ts-jest": "^26.1.1"
+  },
+  "jest": {
+    "preset": "ts-jest",
+    "testEnvironment": "node"
   }
 }
