@@ -1,0 +1,16 @@
+// prisma/schema.prisma
+
+datasource postgres {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+model Post {
+  id        Int     @id @default(autoincrement())
+  title     String
+  body      String
+  published Boolean
+}
+generator prisma_client {
+  provider = "prisma-client-js"
+}
