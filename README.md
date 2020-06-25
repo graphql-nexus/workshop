@@ -2,6 +2,8 @@
 
 This repository contains a very basic starter that will help you get up and running quicker for the workshop.
 
+The steps that we will follow during the workshop can be found here [nxs.li/learn/tutorial](nxs.li/learn/tutorial).
+
 ### Installation
 
 1. Clone the repository
